@@ -1,0 +1,12 @@
+10
+6
+abaaaiaaaa
+aicaaidiia
+aiaiaadiga
+diaiiaafaa
+aiaaeiiiia
+aiagahaaia
+c 0 5
+c 9 5
+g 7 5
+w 6 1

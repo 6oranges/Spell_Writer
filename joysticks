@@ -1,0 +1,16 @@
+if self.joysticks[num].get_button(0) == 1:
+        events.append('A')
+      if self.joysticks[num].get_button(1) == 1:
+        events.append('B')
+      if self.joysticks[num].get_button(9) == 1:
+        events.append('start')
+      if self.joysticks[num].get_button(8) == 1:
+        events.append('select')
+      if round(self.joysticks[num].get_axis(0)) == -1:
+        events.append('left')
+      if round(self.joysticks[num].get_axis(0)) == 1:
+        events.append('right')
+      if round(self.joysticks[num].get_axis(1)) == -1:
+        events.append('up')
+      if round(self.joysticks[num].get_axis(1)) == 1:
+        events.append('down')
